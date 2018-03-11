@@ -1,0 +1,34 @@
+wd
+list
+list -i path
+list -h path
+create -d TestFolder
+chwd 
+quit
+wd
+create -f helloWorld.txt
+create -f csi402.pdf
+create -f computerfile5.txt
+wd
+create -h TestLink link1
+create -s TestLink link2
+list path
+list -i path
+list -i path test y
+quit testFolder y
+list -i
+list -h
+create -f apple.txt
+create -d dirpath
+list 
+list -i 
+list -h
+chwd
+create -d ComputerFolder
+wd
+create -f paper.txt
+create -f test.txt
+list -h path
+list -i path
+wd
+

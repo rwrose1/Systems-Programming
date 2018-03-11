@@ -1,0 +1,23 @@
+wd
+list
+list -i
+list -h
+create -d testDIR
+create -f testDIR/testFILE1
+create -f testDIR/testFILE2
+create -f testDIR/testFILE3
+create -f testDIR/testFILE4
+create -f testDIR/testFILE5
+create -h testDIR/testFILE1 testFILE1HL
+create -s testDIR/testFILE2 testFILE2SL
+create -d testDIR/Another
+list -i testDIR
+list testDIR
+list -h testDIR
+chwd testDIR
+create -f anotherFile.txt
+wd
+list -i
+list -h
+list
+quit

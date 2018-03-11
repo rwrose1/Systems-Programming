@@ -1,0 +1,10 @@
+wd
+wd > foo.txt
+list > foo.txt
+list -i > foo.txt
+list -h > foo.txt
+wd
+wd > Test/foo.txt
+list > Test/foo.txt
+list -i > Test/foo.txt
+list -h > Test/foo.txt
